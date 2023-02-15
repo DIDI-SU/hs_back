@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hsusers",
+  "info": {
+    "singularName": "hsuser",
+    "pluralName": "hsusers",
+    "displayName": "Hsuser"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hsid": {
+      "type": "string"
+    },
+    "pw": {
+      "type": "password"
+    }
+  }
+}
