@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "guests",
+  "info": {
+    "singularName": "guest",
+    "pluralName": "guests",
+    "displayName": "guest",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "guestid": {
+      "type": "string"
+    },
+    "participate": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "hsuser",
     "pluralName": "hsusers",
-    "displayName": "Hsuser"
+    "displayName": "Hsuser",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,16 @@
     },
     "pw": {
       "type": "password"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "hsuser"
+    },
+    "participate": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
